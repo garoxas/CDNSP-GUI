@@ -4,3 +4,20 @@
 
 # language.mo files
 #/locales/*/LC_MESSAGES/language.mo
+.vs/
+Config/
+Images/
+hactool_mac
+hactool_linux
+ca-certificates.crt
+blank.jpg
+Ticket.tik
+ShopN.pem
+Certificate.cert
+CDNSP-GUI-config.json
+titlekeys_overwrite.txt
+titlekeys.txt
+nx_tls_client_cert.pem
+keys.txt
+Nut_titlekeys.txt
+CDNSPconfig.json
