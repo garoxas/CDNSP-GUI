@@ -267,6 +267,7 @@ nsp_location = ""
 
 system_version = {'1.0.0': 450, '2.0.0': 65796, '2.1.0': 131162, '2.2.0': 196628, '2.3.0': 262164, '3.0.0': 201327002, '3.0.1': 201392178, '3.0.2': 201457684,
                   '4.0.0': 268435656, '4.0.1': 268501002, '4.1.0': 269484082, '5.0.0': 335544750, '5.0.1': 335609886, '5.0.2': 335675432, '5.1.0': 336592976,
+                  '6.0.0': 402653544,
                   'Latest': sys.maxsize}
     
 import os, sys
@@ -1799,6 +1800,7 @@ class Application():
         self.sysverMenu.add_command(label="5.0.1", command=lambda: self.system_firmware("5.0.1"))
         self.sysverMenu.add_command(label="5.0.2", command=lambda: self.system_firmware("5.0.2"))
         self.sysverMenu.add_command(label="5.1.0", command=lambda: self.system_firmware("5.1.0"))
+        self.sysverMenu.add_command(label="6.0.0", command=lambda: self.system_firmware("6.0.0"))
         self.sysverMenu.add_command(label="Latest", command=lambda: self.system_firmware("Latest"))
 
         self.optionMenu.add_separator() # Add separator to the menu dropdown
